@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+	  
+	  <bean id="alex" class="fr.eisti.pau.cdiscount.recommender.User">
+	  	<property name="name" value="Alex"></property>
+	  	<property name="lastname" value="Ledit"></property>
+	  	<property name="age" value="25"></property>
+	  </bean>
+	  
+	  <bean id="model" class="fr.eisti.pau.cdiscount.recommender.core.BestWineModel"></bean>
+
+</beans>
